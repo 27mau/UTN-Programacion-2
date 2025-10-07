@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>20</x><y>220</y><w>140</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Class&gt;&gt;
+Conductor
+--
+- nombre: String
+- licencia: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>40</y><w>140</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Class&gt;&gt;
+Motor
+--
+- tipo: String
+- numeroSerie: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>40</y><w>140</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Class&gt;&gt;
+Vehículo
+--
+- patente: String
+- modelo: String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>90</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>110</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
