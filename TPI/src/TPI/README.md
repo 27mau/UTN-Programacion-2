@@ -125,7 +125,7 @@ El sistema implementa todas las operaciones CRUD para **Producto** y **Código d
 
 Esto garantiza que **Producto y Código se crean o se rechazan juntos**, asegurando la integridad de datos.
 
-### 🔹 6. Script único `setup.sql`
+### 🔹 6. Script único `01_esquema.sql`
 Incluye:
 - Creación de la base `tienda`
 - Tablas con constraints y FK
