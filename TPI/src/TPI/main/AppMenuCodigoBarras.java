@@ -163,9 +163,7 @@ public class AppMenuCodigoBarras {
         }
     }
 
-    // ===========================================================
     // 5. Eliminar (baja lógica)
-    // ===========================================================
 
     private void eliminarCodigo() {
         try {
@@ -181,9 +179,7 @@ public class AppMenuCodigoBarras {
         }
     }
 
-    // ===========================================================
     // MÉTODOS AUXILIARES
-    // ===========================================================
 
     private TipoCodigo leerTipoCodigo() {
         while (true) {
